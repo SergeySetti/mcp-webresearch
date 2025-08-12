@@ -1,0 +1,17 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+
+server_name: webresearch
+command: npx
+args:
+  - -y
+  - '@mzxrai/mcp-webresearch@latest'
+env: []
+
+description: Web research tool for MCP.
+owner: Anton S
+license: Apache-2.0
+package: '@mzxrai/mcp-webresearch@latest'
+vendor: Cprime
